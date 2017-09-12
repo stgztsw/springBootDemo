@@ -14,7 +14,6 @@ public class Application {
     public static void main (String[] args) {
 
         new SpringApplicationBuilder()
-                .showBanner(true)
                 .sources(Application.class)
                 .run(args);
     }
