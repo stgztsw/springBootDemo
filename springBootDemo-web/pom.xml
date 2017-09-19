@@ -39,7 +39,6 @@
         <dependency>
             <groupId>com.chacha.springBootDemo</groupId>
             <artifactId>springBootDemo-biz</artifactId>
-            <version>1.0-SNAPSHOT</version>
         </dependency>
 
     </dependencies>

@@ -24,7 +24,7 @@ public class HelloController {
     @ResponseBody
     @RequestMapping(path = "/hello", method = RequestMethod.GET)
     public List<BdFeatureBrandTO> hello(@RequestParam(value = "name", required = true, defaultValue = "stranger") String name){
-        //System.out.println(name);
+        System.out.println(name);
         List<BdFeatureBrandTO> bdFeatureBrandTOList = bdFeatureBrandService.findBdFeatureBrand();
         return bdFeatureBrandTOList;
     }

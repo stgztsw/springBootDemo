@@ -11,18 +11,26 @@
 
     <artifactId>springBootDemo-biz</artifactId>
     <dependencies>
+
+        <!-- SpringSecurity依赖 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>com.chacha.springBootDemo</groupId>
             <artifactId>springBootDemo-domain</artifactId>
         </dependency>
+
         <dependency>
             <groupId>com.chacha.springBootDemo</groupId>
             <artifactId>springBootDemo-dao</artifactId>
         </dependency>
+
         <dependency>
             <groupId>com.chacha.springBootDemo</groupId>
             <artifactId>springBootDemo-client</artifactId>
-            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
