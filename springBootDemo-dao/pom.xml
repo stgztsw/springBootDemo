@@ -32,12 +32,6 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
-        <!-- alibaba druid -->
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>druid</artifactId>
-        </dependency>
-
         <dependency>
             <groupId>com.chacha.springBootDemo</groupId>
             <artifactId>springBootDemo-domain</artifactId>
